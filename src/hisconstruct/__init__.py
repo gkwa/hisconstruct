@@ -4,6 +4,7 @@ from . import main2
 
 __project_name__ = "hisconstruct"
 
+
 def main() -> int:
     out = main2.render_template("extended.j2")
     sys.stdout.write(out)
